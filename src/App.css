@@ -1,0 +1,33 @@
+
+.header{
+  padding: 5px;
+  margin: 10px;
+  background-color: lightgray;
+}
+
+.productlist{
+  display: flex;
+  padding: 0px;
+  margin: 10px;
+  width: fit-content;
+
+}
+
+.img{
+  width: 200px;
+}
+
+.product{
+  padding: 20px;
+  margin: 10px;
+  background-color: salmon;
+  max-width: fit-content;
+  transition-property: margin-right;
+  
+  
+}
+
+.productlist:hover {
+  width: 300px;
+  
+}
